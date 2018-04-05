@@ -11,8 +11,8 @@ namespace plt = matplotlibcpp;
 // Map class
 class Map {
 public:
-    const static int mapWidth = 150;
     const static int mapHeight = 300;
+    const static int mapWidth = 150;
     vector<vector<double> > map = GetMap();
     vector<vector<int> > grid = MaptoGrid();
     vector<vector<int> > heuristic = GenerateHeuristic();
