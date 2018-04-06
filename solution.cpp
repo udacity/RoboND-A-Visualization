@@ -157,7 +157,7 @@ Planner search(Map map, Planner planner)
             // Check if we reached the goal:
             if (x == planner.goal[0] && y == planner.goal[1]) {
                 found = true;
-                //cout << "[" << next[0] << ", " << next[1] << ", " << next[2] << "]" << endl;
+                //cout << "[" << g << ", " << x << ", " << y << "]" << endl;
             }
 
             //else expand new elements
