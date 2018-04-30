@@ -29,7 +29,7 @@ void visualization(Map map, Planner planner)
         }
     }
 
-    // Plot start and end states in blue colors using 0 and * respectively
+    // Plot start and end states in blue colors using o and * respectively
     
     // Plot the robot path in blue color using a .
     
