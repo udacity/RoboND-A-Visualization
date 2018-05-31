@@ -3,7 +3,7 @@
 # RoboND-A-Visualization
 You will visualize the shortest path for the robot to travel through the generated image
 
-### Instruction:
+### Instruction
 The visualization function will plot the state of each grid cell using the matplotlib python library. Edit this function and plot the start position, goal position and path.
 ``` C++
 void visualization(Map map, Planner planner)
@@ -47,7 +47,7 @@ Here are some helpful commands you can use to generate plots with the `matplotli
 
 Check out this [link](https://github.com/lava/matplotlib-cpp) for more information on the `matplotlib` C++ library. For information regarding the plot color and shape refer to the LineSpec and LineColor section of the [MATLAB](https://www.mathworks.com/help/matlab/ref/plot.html?requestedDomain=true) documentation. 
 
-### Compiling:
+### Compiling
 ```sh
 $ cd /home/workspace/
 $ git clone https://github.com/udacity/RoboND-A-Visualization
@@ -56,14 +56,14 @@ $ rm -rf Images/* #Delete the folder content and not the folder itself!
 $ g++ main.cpp -o app -std=c++11 -I/usr/include/python2.7 -lpython2.7
 ```
 
-### Running:
+### Running
 ```sh
 $ ./app
 ```
 
 Now, wait for the program to generate the path!
 
-### Generated Path:
+### Generated Path
 
 ![alt text](Images/Path.png)
 
