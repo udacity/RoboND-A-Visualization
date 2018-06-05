@@ -29,9 +29,9 @@ void visualization(Map map, Planner planner)
         }
     }
 
-    // Plot start and end states in blue colors using o and * respectively
+    // TODO: Plot start and end states in blue colors using o and * respectively
     
-    // Plot the robot path in blue color using a .
+    // TODO: Plot the robot path in blue color using a .
     
     //Save the image and close the plot
     plt::save("./Images/Path.png");
