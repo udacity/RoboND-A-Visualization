@@ -65,11 +65,11 @@ private:
                 int xd = goal[0] - i;
                 int yd = goal[1] - j;
                 // Manhattan Distance
-                   int d = xd + yd;
+                   int d = abs(xd) + abs(yd);
                 // Euclidian Distance
                 // double d = sqrt(xd * xd + yd * yd);
                 // Chebyshev distance
-                // int d = max(xd, yd);
+                // int d = max(abs(xd), abs(yd));
                 heuristic[i][j] = d;
             }
         }
